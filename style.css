@@ -1,0 +1,27 @@
+:root {
+    --red:#FE0002;
+    --blue: #0001FC;
+    --jasmine: #FFD987;
+    --darkred: #6A0400;
+  }
+  
+  .red {
+    color: var(--red);
+  }
+
+  .blue {
+      color: var(--blue)
+  }
+
+  .jasmine {
+      color: var(--jasmine)
+  }
+
+  .darkred {
+      color: var(--darkred)
+  }
+
+  /* Navbar */
+
+
+  
