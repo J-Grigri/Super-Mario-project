@@ -29,6 +29,7 @@
             height: 40px;
             animation: an 1s ease-out 1 both;
             display: inline-block;
+            
         }
 
         @keyframes an{
