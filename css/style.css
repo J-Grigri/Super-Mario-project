@@ -78,7 +78,7 @@
     top: -160%;
     left: 5px;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    font: 21px Mario-font;
+    font: 25px Mario-font;
 }
 
 .button-intro-1:hover {
@@ -101,7 +101,7 @@
     top: -250%;
     right: -50%;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    font: 21px Mario-font;
+    font: 25px Mario-font;
 }
 
 .nav-items:hover {
@@ -120,7 +120,7 @@
   /* dannial */
   
   .hero-image {
-      background-image: url("rainbow.jpg");
+      background-image: url(/img/rainbow.jpg);
       height: 500px;
       background-position: center;
       background-repeat: no-repeat;
@@ -150,7 +150,7 @@
   }
   
   .background-section {
-      background-image: url("Black.jpg");
+      background-image: url(/img/Black.jpg);
       opacity: .96;
   }
   
@@ -163,7 +163,7 @@
   }
   
   .background {
-      background-image: url(files/background-features.png);
+      background-image: url(/img/background-features.png);
       height: 1000px;
       ;
   }
@@ -199,3 +199,6 @@
   .tip-secion-title {
       text-align: center;
   }
+
+  /* Phong'CSS*/
+  
