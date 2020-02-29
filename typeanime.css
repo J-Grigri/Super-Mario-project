@@ -3,10 +3,9 @@
             box-sizing: border-box;
         }
 
-        body{
+       body{
             margin: 0;
             background-color: #232323;
-            color: #fff;
             font-family: Calibri, sans-serif;
         }
 
@@ -18,11 +17,6 @@
             align-items: center;
         }
 
-        p{
-            font-size: 30px;
-            display: block;
-            text-align: center;
-        }
 
         .char{
             font-size: 18px;
