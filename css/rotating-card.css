@@ -18,8 +18,8 @@ body {
         margin-bottom: 30px;
 }
 /* flip the pane when hovered */
-.card-container:not(.manual-flip):hover .card,
-.card-container.hover.manual-flip .card{
+.card-container:not(.manual-flip):hover .card-aboutus,
+.card-container.hover.manual-flip .card-aboutus{
 	-webkit-transform: rotateY( 180deg );
 -moz-transform: rotateY( 180deg );
  -o-transform: rotateY( 180deg );
@@ -28,14 +28,14 @@ body {
 
 
 .card-container.static:hover .card,
-.card-container.static.hover .card {
+.card-container.static.hover .card-aboutus {
 	-webkit-transform: none;
 -moz-transform: none;
  -o-transform: none;
     transform: none;
 }
 /* flip speed goes here */
-.card {
+.card-aboutus {
 	 -webkit-transition: -webkit-transform .5s;
    -moz-transition: -moz-transform .5s;
      -o-transition: -o-transform .5s;
@@ -82,7 +82,7 @@ body {
 /*        Style       */
 
 
-.card{
+.card-aboutus {
     background: none repeat scroll 0 0 #FFFFFF;
     border-radius: 4px;
     color: #444444;
@@ -92,15 +92,15 @@ body {
 	height: 420px;
 	border-radius: 4px;
 }
-.card .cover{
+.card-aboutus .cover{
     height: 105px;
     overflow: hidden;
     border-radius: 4px 4px 0 0;
 }
-.card .cover img{
+.card-aboutus .cover img{
     width: 100%;
 }
-.card .user{
+.card-aboutus .user{
     border-radius: 50%;
     display: block;
     height: 120px;
@@ -108,61 +108,61 @@ body {
     overflow: hidden;
     width: 120px;
 }
-.card .user img{
+.card-aboutus .user img{
     background: none repeat scroll 0 0 #FFFFFF;
     border: 4px solid #FFFFFF;
     width: 100%;
 }
 
-.card .content{
+.card-aboutus .content{
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
     padding: 10px 20px 20px;
 }
-.card .content .main {
+.card-aboutus .content .main {
     min-height: 160px;
 }
-.card .back .content .main {
+.card-aboutus .back .content .main {
     height: 215px;
 }
-.card .name {
+.card-aboutus .name {
     font-size: 22px;
     line-height: 28px;
     margin: 10px 0 0;
     text-align: center;
     text-transform: capitalize;
 }
-.card h5{
+.card-aboutus h5{
     margin: 5px 0;
     font-weight: 400;
     line-height: 20px;
 }
-.card .profession{
+.card-aboutus .profession{
     color: #999999;
     text-align: center;
     margin-bottom: 20px;
 }
-.card .footer {
+.card-aboutus .footer {
     border-top: 1px solid #EEEEEE;
     color: #999999;
     margin: 30px 0 0;
     padding: 10px 0 0;
     text-align: center;
 }
-.card .footer .social-links{
+.card-aboutus .footer .social-links{
     font-size: 18px;
 }
-.card .footer .social-links a{
+.card-aboutus .footer .social-links a{
     margin: 0 7px;
 }
 .card .footer .btn-simple{
     margin-top: -6px;
 }
-.card .header {
+.card-aboutus .header {
     padding: 15px 20px;
     height: 90px;
 }
-.card .motto{
+.card-aboutus .motto{
     border-bottom: 1px solid #EEEEEE;
     color: #999999;
     font-size: 14px;
@@ -171,28 +171,28 @@ body {
     text-align: center;
 }
 
-.card .stats-container{
+.card-aboutus .stats-container{
 	width: 100%;
 	margin-top: 50px;
 }
-.card .stats{
+.card-aboutus .stats{
 	display: block;
 	float: left;
 	width: 33.333333%;
 	text-align: center;
 }
 
-.card .stats:first-child{
+.card-aboutus .stats:first-child{
 	border-right: 1px solid #EEEEEE;
 }
-.card .stats:last-child{
+.card-aboutus .stats:last-child{
 	border-left: 1px solid #EEEEEE;
 }
 .card .stats h4{
 	font-weight: 300;
 	margin-bottom: 5px;
 }
-.card .stats p{
+.card-aboutus .stats > p{
 	color: #777777;
 }
 /*      Just for presentation        */

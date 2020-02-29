@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Super Mario relaunch</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
     <!-- Danny's CDN -->
     <link rel="stylesheet" href="/css/typewrite.css">
@@ -20,7 +21,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/rotating-card.css" rel="stylesheet" />
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
-    
+
     <style type="text/css">
         .typewrite>.wrap {
             border-right: 0.08em solid #fff
@@ -118,50 +119,72 @@
     </div>
 
     <!-- Section 4: Tips and tricks / features -->
-    <div class="background">
-        <h1 class="tip-secion-title">Boost your game with Power-Ups</h1>
-        <div class="container-fluid flex-wrap">
-            <div class="card-deck row">
-                <div class="col col-sm-6 col-xl-3">
-                    <div class="card boost-card center">
-                        <img class="card-img-top img-sizing" src="/img/banana.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="https://www.mariowiki.com/Banana#Mario_Kart_series">Banana</a></h5>
-                            <p class="card-text">Throw bananas at other riders causing them to spin and lose control.
-                            </p>
-                        </div>
+    <div id="featuresContainer">
+        <div id="titleContainer">
+            <div class="col col-sm-6 col-xl-9 titleMain">
+                <h2 style="width:100%; font-size: 50px;">Tips and Tricks</h2>
+            </div>
+            <div class="col col-sm-6 col-xl-3 titleComment">
+                <p style="line-height: normal; font-size: 18px;">
+                    Power-ups let you tear up the track and go for highscore!
+                </p>
+            </div>
+        </div>
+
+        <div id="cardContainer">
+            <div class="col col-sm-6 col-xl-3">
+                <div class="card boost-card">
+                    <img class="card-img-top boost-card-img" src="/img/banana.png" alt="Card image cap" />
+                    <div class="card-body cardName">
+                        <h5 class="card-title">
+                            <a href="https://www.mariowiki.com/Banana#Mario_Kart_series">Banana</a>
+                        </h5>
+                        <p class="card-text">
+                            Throw bananas at other riders causing them to spin and lose
+                            control.
+                        </p>
                     </div>
                 </div>
-
-                <div class="col col-sm-6 col-xl-3">
-                    <div class="card boost-card">
-                        <img class="card-img-top img-sizing" src="/img/redmushroom.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="https://www.mariowiki.com/Mushroom#Mario_Kart_series">Mushroom</a></h5>
-                            <p class="card-text">Provides burst of speed and allows the player to drive through off-road surfaces without slowing down.</p>
-                        </div>
+            </div>
+            <div class="col col-sm-6 col-xl-3">
+                <div class="card boost-card">
+                    <img class="card-img-top boost-card-img" src="/img/redmushroom.png" alt="Card image cap" />
+                    <div class="card-body cardName">
+                        <h5 class="card-title">
+                            <a href="https://www.mariowiki.com/Mushroom#Mario_Kart_series">Mushroom</a>
+                        </h5>
+                        <p class="card-text">
+                            Provides burst of speed and allows the player to drive through
+                            off-road surfaces without slowing down.
+                        </p>
                     </div>
                 </div>
-
-                <div class="col col-sm-6 col-xl-3">
-                    <div class="card boost-card">
-                        <img class="card-img-top img-sizing" src="/img/fakeitembox.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="https://www.mariowiki.com/Fake_Item_Box#Mario_Kart_series">Fake Item box</a>
-                            </h5>
-                            <p class="card-text">When obtained Fake Item box can be used as a trap for other riders causing them to crash .</p>
-                        </div>
+            </div>
+            <div class="col col-sm-6 col-xl-3">
+                <div class="card boost-card">
+                    <img class="card-img-top boost-card-img" src="/img/fakeitembox.png" alt="Card image cap" />
+                    <div class="card-body cardName">
+                        <h5 class="card-title">
+                            <a href="https://www.mariowiki.com/Fake_Item_Box#Mario_Kart_series">Fake Item box</a>
+                        </h5>
+                        <p class="card-text">
+                            When obtained Fake Item box can be used as a trap for other
+                            riders causing them to crash .
+                        </p>
                     </div>
                 </div>
-
-                <div class="col col-sm-6 col-xl-3">
-                    <div class="card boost-card shell">
-                        <img class="card-img-top img-sizing" src="/img/shell.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="https://www.mariowiki.com/Green_Shell#Mario_Kart_series">Shell</a></h5>
-                            <p class="card-text">Projectile weapon that can be used to shoot Green Shells forward to hit opponents.
-                            </p>
-                        </div>
+            </div>
+            <div class="col col-sm-6 col-xl-3">
+                <div class="card boost-card shell">
+                    <img class="card-img-top boost-card-img" src="/img/shell.png" alt="Card image cap" />
+                    <div class="card-body cardName">
+                        <h5 class="card-title">
+                            <a href="https://www.mariowiki.com/Green_Shell#Mario_Kart_series">Shell</a>
+                        </h5>
+                        <p class="card-text">
+                            Projectile weapon that can be used to shoot Green Shells forward
+                            to hit opponents.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -194,10 +217,12 @@
                         </div>
                     </li>
                     <li style=margin:4% class="media">
-                        <img src="/img/Transparent-Bowser.png" class="mx-auto" style=width:175px class="animated " alt="...">
+                        <img src="/img/Transparent-Bowser.png" class="mx-auto" style=width:175px class="animated "
+                            alt="...">
                         </img>
                         <div class="col-7 align-center">
-                            "Hey Mario! What if Peach actually wants to be with me instead of creepin' with a plumber who eats mushrooms and kills turtles for a living?
+                            "Hey Mario! What if Peach actually wants to be with me instead of creepin' with a plumber
+                            who eats mushrooms and kills turtles for a living?
                             <h5 style=padding-top:3% class="">-Bowser</h5>
                         </div>
                     </li>
@@ -205,7 +230,8 @@
                         <img src="/img/Transparent-DK.png" class=" mx-auto" style=width:175px class="" alt="...">
                         </img>
                         <div class="col-7 align-center">
-                            "If I had to choose to hang out with either Mario, Luigi or Toad. I'd pick Toad.He seems like a fungi."
+                            "If I had to choose to hang out with either Mario, Luigi or Toad. I'd pick Toad.He seems
+                            like a fungi."
                             <h5 style=padding-top:3% class="">-Donkey Kong</h5>
                         </div>
                     </li>
@@ -223,52 +249,371 @@
                         <div class="col-7 align-center">
                             What does King Koopa use to research things? A web bowser.
                             <h5 style=padding-top:3% class="">-Princess Peach</h5>
-                            <li style=margin:4% class="media">
-                                <img src="/img/Transparent-Luigi.png" class=" mx-auto" style=width:175px class="" alt="...">
-                                </img>
-                                <div class="col-7 align-center">
-                                    What did Mario say when he broke up with Princess Peach? It’s not you, it’s a-me, Mario!
-                                    <h5 style=padding-top:3% class="">-Luigi</h5>
-                                </div>
-                            </li>
-                            <li style=margin:4% class="media">
-                                <img src="/img/Transparant-Yoshi.png" class=" mx-auto" style=width:175px class="" alt="...">
-                                </img>
-                                <div class="col-7 align-center">
-                                    "Man you guys are so lame... you need to make like a mushroom and get a life!"
-                                    <h5 style=padding-top:3% class="">-Yoshi</h5>
-                                </div>
-                            </li>
-                            <li style=margin:4% class="media">
-                                <img src="/img/Transparent-Wario.png" class=" mx-auto" style=width:200px class="" alt="...">
-                                </img>
-                                <div class="col-7 align-center">
-                                    What's the first amendment in Super Mario's constitution! Freedom of Peach
-                                    <h5 style=padding-top:3% class="">-Wario</h5>
-                                </div>
-                            </li>
+                    <li style=margin:4% class="media">
+                        <img src="/img/Transparent-Luigi.png" class=" mx-auto" style=width:175px class="" alt="...">
+                        </img>
+                        <div class="col-7 align-center">
+                            What did Mario say when he broke up with Princess Peach? It’s not you, it’s a-me, Mario!
+                            <h5 style=padding-top:3% class="">-Luigi</h5>
                         </div>
                     </li>
-                </ul>
+                    <li style=margin:4% class="media">
+                        <img src="/img/Transparant-Yoshi.png" class=" mx-auto" style=width:175px class="" alt="...">
+                        </img>
+                        <div class="col-7 align-center">
+                            "Man you guys are so lame... you need to make like a mushroom and get a life!"
+                            <h5 style=padding-top:3% class="">-Yoshi</h5>
+                        </div>
+                    </li>
+                    <li style=margin:4% class="media">
+                        <img src="/img/Transparent-Wario.png" class=" mx-auto" style=width:200px class="" alt="...">
+                        </img>
+                        <div class="col-7 align-center">
+                            What's the first amendment in Super Mario's constitution! Freedom of Peach
+                            <h5 style=padding-top:3% class="">-Wario</h5>
+                        </div>
+                    </li>
             </div>
+            </li>
+            </ul>
         </div>
+    </div>
     </div>
 
 
     <!-- Section 6: Team Section -->
-    
+    <div class="container team">
+        <div class="title-about">
+            <h4>THIS IS OUR AWESOME TEAM</h4>
+            <div class="line-3"></div>
+        </div>
+        <div class="row about">
+            <div class="col-xl-6 col-sm-12 mario">
+                <img class="flying-mario" src="/img/mario_PNG97.png" alt="Flying-mario">
+            </div>
+
+            <div class="col-xl-6 col-sm-12">
+                <div class="row member">
+                    <div class="col-xl-6 col-sm-12">
+                        <div class="card-container">
+                            <div class="card-aboutus">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="img/rotating_card_thumb2.png" />
+                                    </div>
+                                    <div class="user">
+                                        <img class="img-circle" src="img//rotating_card_profile3.png" />
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <h3 class="name">John Marvel</h3>
+                                            <p class="profession">CEO</p>
+                                            <p class="text-center">"I'm the new Sinatra, and since I made it here I can
+                                                make it anywhere, yeah, they love me everywhere"</p>
+                                        </div>
+
+                                    </div>
+                                </div> <!-- end front panel -->
+                                <div class="back">
+                                    <div class="header">
+                                        <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <h4 class="text-center">Job Description</h4>
+                                            <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and
+                                                many others...</p>
+
+                                            <div class="stats-container">
+                                                <div class="stats">
+                                                    <h4>235</h4>
+                                                    <p>
+                                                        Followers
+                                                    </p>
+                                                </div>
+                                                <div class="stats">
+                                                    <h4>114</h4>
+                                                    <p>
+                                                        Following
+                                                    </p>
+                                                </div>
+                                                <div class="stats">
+                                                    <h4>35</h4>
+                                                    <p>
+                                                        Projects
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="footer">
+                                        <div class="social-links text-center">
+                                            <a href="https://creative-tim.com" class="facebook"><i
+                                                    class="fa fa-facebook fa-fw"></i></a>
+                                            <a href="https://creative-tim.com" class="google"><i
+                                                    class="fa fa-google-plus fa-fw"></i></a>
+                                            <a href="https://creative-tim.com" class="twitter"><i
+                                                    class="fa fa-twitter fa-fw"></i></a>
+                                        </div>
+                                    </div>
+                                </div> <!-- end back panel -->
+                            </div> <!-- end card -->
+                        </div> <!-- end card-container -->
+                    </div> <!-- end col sm 3 -->
+                    <!--         <div class="col-sm-1"></div> -->
+                    <!--         <div class="col-sm-1"></div> -->
+                    <div class="col-xl-6 col-sm-12">
+                        <div class="card-container">
+                            <div class="card-aboutus">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="img/rotating_card_thumb3.png" />
+                                    </div>
+                                    <div class="user">
+                                        <img class="img-circle" src="img/rotating_card_profile.png" />
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <h3 class="name">Inna Corman</h3>
+                                            <p class="profession">Product Manager</p>
+                                            <p class="text-center">"I'm the new Sinatra, and since I made it here I can
+                                                make it anywhere, yeah, they love me everywhere"</p>
+                                        </div>
+                                    </div>
+                                </div> <!-- end front panel -->
+                                <div class="back">
+                                    <div class="header">
+                                        <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <h4 class="text-center">Job Description</h4>
+                                            <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and
+                                                many others...</p>
+
+                                            <div class="stats-container">
+                                                <div class="stats">
+                                                    <h4>235</h4>
+                                                    <p>
+                                                        Followers
+                                                    </p>
+                                                </div>
+                                                <div class="stats">
+                                                    <h4>114</h4>
+                                                    <p>
+                                                        Following
+                                                    </p>
+                                                </div>
+                                                <div class="stats">
+                                                    <h4>35</h4>
+                                                    <p>
+                                                        Projects
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="footer">
+                                        <div class="social-links text-center">
+                                            <a href="https://creative-tim.com" class="facebook"><i
+                                                    class="fa fa-facebook fa-fw"></i></a>
+                                            <a href="https://creative-tim.com" class="google"><i
+                                                    class="fa fa-google-plus fa-fw"></i></a>
+                                            <a href="https://creative-tim.com" class="twitter"><i
+                                                    class="fa fa-twitter fa-fw"></i></a>
+                                        </div>
+                                    </div>
+                                </div> <!-- end back panel -->
+                            </div> <!-- end card -->
+                        </div> <!-- end card-container -->
+                    </div> <!-- end col-sm-3 -->
+                </div> <!-- end col-sm-10 -->
+
+                <div class="row member">
+                    <div class="col-xl-6 col-sm-12">
+                        <div class="card-container">
+                            <div class="card-aboutus">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="img/rotating_card_thumb2.png" />
+                                    </div>
+                                    <div class="user">
+                                        <img class="img-circle" src="img//rotating_card_profile3.png" />
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <h3 class="name">John Marvel</h3>
+                                            <p class="profession">CEO</p>
+                                            <p class="text-center">"I'm the new Sinatra, and since I made it here I can
+                                                make it anywhere, yeah, they love me everywhere"</p>
+                                        </div>
+                                    </div>
+                                </div> <!-- end front panel -->
+                                <div class="back">
+                                    <div class="header">
+                                        <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <h4 class="text-center">Job Description</h4>
+                                            <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and
+                                                many others...</p>
+
+                                            <div class="stats-container">
+                                                <div class="stats">
+                                                    <h4>235</h4>
+                                                    <p>
+                                                        Followers
+                                                    </p>
+                                                </div>
+                                                <div class="stats">
+                                                    <h4>114</h4>
+                                                    <p>
+                                                        Following
+                                                    </p>
+                                                </div>
+                                                <div class="stats">
+                                                    <h4>35</h4>
+                                                    <p>
+                                                        Projects
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="footer">
+                                        <div class="social-links text-center">
+                                            <a href="https://creative-tim.com" class="facebook"><i
+                                                    class="fa fa-facebook fa-fw"></i></a>
+                                            <a href="https://creative-tim.com" class="google"><i
+                                                    class="fa fa-google-plus fa-fw"></i></a>
+                                            <a href="https://creative-tim.com" class="twitter"><i
+                                                    class="fa fa-twitter fa-fw"></i></a>
+                                        </div>
+                                    </div>
+                                </div> <!-- end back panel -->
+                            </div> <!-- end card -->
+                        </div> <!-- end card-container -->
+                    </div> <!-- end col sm 3 -->
+                    <!--         <div class="col-sm-1"></div> -->
+                    <!--         <div class="col-sm-1"></div> -->
+                    <div class="col-xl-6 col-sm-12">
+                        <div class="card-container">
+                            <div class="card-aboutus">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="img/rotating_card_thumb3.png" />
+                                    </div>
+                                    <div class="user">
+                                        <img class="img-circle" src="img/rotating_card_profile.png" />
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <h3 class="name">Inna Corman</h3>
+                                            <p class="profession">Product Manager</p>
+                                            <p class="text-center">"I'm the new Sinatra, and since I made it here I can
+                                                make it anywhere, yeah, they love me everywhere"</p>
+                                        </div>
+                                    </div>
+                                </div> <!-- end front panel -->
+                                <div class="back">
+                                    <div class="header">
+                                        <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <h4 class="text-center">Job Description</h4>
+                                            <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and
+                                                many others...</p>
+
+                                            <div class="stats-container">
+                                                <div class="stats">
+                                                    <h4>235</h4>
+                                                    <p>
+                                                        Followers
+                                                    </p>
+                                                </div>
+                                                <div class="stats">
+                                                    <h4>114</h4>
+                                                    <p>
+                                                        Following
+                                                    </p>
+                                                </div>
+                                                <div class="stats">
+                                                    <h4>35</h4>
+                                                    <p>
+                                                        Projects
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="footer">
+                                        <div class="social-links text-center">
+                                            <a href="https://creative-tim.com" class="facebook"><i
+                                                    class="fa fa-facebook fa-fw"></i></a>
+                                            <a href="https://creative-tim.com" class="google"><i
+                                                    class="fa fa-google-plus fa-fw"></i></a>
+                                            <a href="https://creative-tim.com" class="twitter"><i
+                                                    class="fa fa-twitter fa-fw"></i></a>
+                                        </div>
+                                    </div>
+                                </div> <!-- end back panel -->
+                            </div> <!-- end card -->
+                        </div> <!-- end card-container -->
+                    </div> <!-- end col-sm-3 -->
+                </div> <!-- end col-sm-10 -->
+            </div>
+        </div>
+        <img class="img-fluid background-about" src="/img/img-aboutus.png">
+    </div> <!-- end row -->
+
+    <!-- Section 6:Footer -->
+    <footer>
+        <div class="container-fluid end">
+            <img src="/img/logo-team.png" class="logo-2">
+            <p>Lorem ipsum dolor sit amet, consectetur </p>
+            <div class="socialmedia">
+                <div class="social-links text-center">
+                    <a href="#" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                    <a href="#" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                    <a href="#" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="line-4"></div>
+                <p>Copyright © 2020 Cool Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- Section 7: Footer -->
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
     <script src="/js/Textanime.js.js" type=""></script>
     <script src="/js/typewrite.js" type=""></script>
 </body>

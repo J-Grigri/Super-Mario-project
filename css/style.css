@@ -190,15 +190,202 @@
       font-size: 26px;
   }
   
-  p {
-      color: grey;
-      line-height: 2;
-      padding-top: 30px;
-  }
   
   .tip-secion-title {
       text-align: center;
   }
 
-  /* Phong'CSS*/
+
+  /* Jurgis*/
+
+  #featuresContainer {
+    display: block;
+    text-align: left;
+    background-image: url(img/background-features.png);
+  }
   
+  #titleContainer {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+  
+  #cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .titleMain {
+    background-color: #3f88c5;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: right;
+  }
+  
+  .titleComment {
+    background-color: #cbe8ef;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: grey;
+    flex-wrap: wrap;
+  }
+  
+  .boost-card {
+    margin: 50px 10px;
+    text-align: center;
+    align-items: center;
+    border: 3px solid #3f88c5;
+    background-color: white;
+  }
+  
+  .boost-card:hover {
+    box-shadow: 0 16px 32px 0 #3f88c5;
+    background-color: #3f88c5;
+    border: 3px solid lightgrey;
+    cursor: pointer;
+  }
+  
+  .col-xl-3 > .boost-card {
+    min-height: 420px;
+  }
+  
+  .boost-card-img {
+    padding: 10px;
+    max-height: 215px;
+    max-width: 215px;
+  }
+  .col-xl-3 > .shell > img {
+    min-height: 215px;
+  }
+  
+  .cardName {
+    padding: 10px;
+    background-color: white;
+    color: white;
+  }
+  
+  .cardName > h5 > a {
+    color: #3f88c5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 500;
+  }
+  
+  .cardName > p {
+    font-size: 16px;
+    color: grey;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+  }
+  
+
+  /* Phong'CSS*/
+  .btn-info,
+.btn-info:hover,
+.btn-info:focus{
+  color: #FFF !important;
+  background-color: #00bbff !important;
+  border-color: #00bbff !important;
+}
+
+.btn-info{
+  opacity: .8;
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+.btn-info:hover,
+.btn-info:focus{
+  opacity: 1;
+}
+
+.team {
+  background-image: url(/img/background-aboutus.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.background-about {
+  max-width: 100%;
+  padding: 0;
+  margin: 0%;
+}
+
+.team > .about {
+  margin-top: 5%;
+  padding: 0;
+}
+
+.mario {
+  display: flex;
+  align-items: center;
+  padding-left: 3%;
+}
+
+.flying-mario {
+  max-width: 60%;
+  height: auto;
+}
+
+.member {
+  width: 80%;
+}
+
+.title-about > h4 {
+  font: 45px Mario-font;
+  color: #F5F7EA;
+}
+
+.line-3 {
+  border-top: 4px solid #F5F7EA;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+footer {
+  background: url(/img/img-footer.png);
+}
+
+footer > .end > .logo-2 {
+  width: 100px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+footer > .end > p {
+  font: 25px Gotham-regular;
+  color: #F5F7EA;
+}
+
+.end > .socialmedia > .social-links {
+  font-size: 20px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.line-4 {
+  border-top: 2px solid #F5F7EA;
+  width: 100%;
+}
+
+.copyright > p {
+  margin-bottom: 0;
+  font: 15px Gotham-regular;
+  color: #F5F7EA;
+  text-align: right;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
