@@ -37,17 +37,17 @@
                 <li class="nav-item">
                     <a class="nav-link text-white nav-items"
                         style="font-size:21px;text-transform: uppercase; margin: 0 20px; font-family: Gotham-bold;"
-                        href="#titleContainer">Tips & Tricks</a>
+                        href="#titleContainer" data-id="titleContainer">Tips & Tricks</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white nav-items"
                         style=" font-size:21px;text-transform: uppercase; margin: 0 20px; font-family: Gotham-bold;"
-                        href="#characterSection">Character</a>
+                        href="#characterSection" data-id="characterSection">Characters</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white nav-items"
                         style=" font-size:21px;text-transform: uppercase; margin: 0 20px; font-family: Gotham-bold;"
-                        href="#aboutUs">About Us</a>
+                        href="#aboutUs" data-id="aboutUs">About Us</a>
                 </li>
             </ul>
         </div>
@@ -73,11 +73,15 @@
                 <div class="button-intro d-none d-xl-block" style="display:flex;align-items: center; min-width:470px; width: 30%; height: 110px; position: absolute; top: 550px;
                 left: 40px;">
                     <button type="button" class="btn button-intro-1 text-white"
-                        style="background-image: url(img/button-intro.png); background-size: 100% 100%; background-repeat: no-repeat; display: flex; align-items: center; justify-content: center;">LEARN
-                        MORE</button>
+                        style="background-image: url(img/button-intro.png); background-size: 100% 100%; background-repeat: no-repeat; display: flex; align-items: center; justify-content: center;"><a
+                            href="https://www.mariowiki.com/Mario_Kart_Tour" target="_blank"
+                            style="text-decoration:none; color: white;">READ
+                            MORE</a></button>
                     <button type="button" class="btn button-intro-2 text-white"
-                        style="background-image: url(img/button-intro.png); background-size: 100% 100%; background-repeat: no-repeat; display: flex; align-items: center; justify-content: center;">BUY
-                        NOW</button>
+                        style="background-image: url(img/button-intro.png); background-size: 100% 100%; background-repeat: no-repeat; display: flex; align-items: center; justify-content: center;"><a
+                            href="https://www.playemulator.com/n64-online/mario-kart-64/" target="_blank"
+                            style="color: white; text-decoration: none;">PLAY
+                            NOW</a></button>
                 </div>
             </div>
 
@@ -222,7 +226,7 @@
     align-content: center;
     flex-direction: column;
     justify-content: center;">
-        <div id="characterSection"class="container-fluid">
+        <div id="characterSection" class="container-fluid">
             <div class="title-testemonials">
                 <h4>MEET OUR DRIVERS</h4>
                 <div class="line-1"></div>
@@ -435,16 +439,17 @@
                                             <img src="img/rotating_card_thumb2.png" />
                                         </div>
                                         <div class="user">
-                                            <img class="img-circle" src="img//rotating_card_profile3.png" />
+                                            <img class="img-circle" src="img/sang-avatar.png" />
                                         </div>
                                         <div class="content">
                                             <div class="main">
                                                 <h3 class="name">John Marvel</h3>
                                                 <p class="profession">CEO</p>
-                                                <p class="text-center">"I'm the new Sinatra, and since I made it here I can
+                                                <p class="text-center">"I'm the new Sinatra, and since I made it here I
+                                                    can
                                                     make it anywhere, yeah, they love me everywhere"</p>
                                             </div>
-    
+
                                         </div>
                                     </div> <!-- end front panel -->
                                     <div class="back">
@@ -454,19 +459,17 @@
                                         <div class="content">
                                             <div class="main">
                                                 <h4 class="text-center">Job Description</h4>
-                                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and
+                                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel
+                                                    and
                                                     many others...</p>
-    
+
                                             </div>
                                         </div>
                                         <div class="footer">
                                             <div class="social-links text-center">
-                                                <a href="#" class="facebook"><i
-                                                        class="fa fa-facebook fa-fw"></i></a>
-                                                <a href="#" class="google"><i
-                                                        class="fa fa-google-plus fa-fw"></i></a>
-                                                <a href="#" class="twitter"><i
-                                                        class="fa fa-twitter fa-fw"></i></a>
+                                                <a href="#" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                                <a href="#" class="github"><i class="fab fa-github fa-fw"></i></a>
+                                                <a href="#" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                             </div>
                                         </div>
                                     </div> <!-- end back panel -->
@@ -483,13 +486,14 @@
                                             <img src="img/rotating_card_thumb3.png" />
                                         </div>
                                         <div class="user">
-                                            <img class="img-circle" src="img/rotating_card_profile.png" />
+                                            <img class="img-circle" src="img/jurgis-avatar.png" />
                                         </div>
                                         <div class="content">
                                             <div class="main">
-                                                <h3 class="name">Inna Corman</h3>
-                                                <p class="profession">Product Manager</p>
-                                                <p class="text-center">"I'm the new Sinatra, and since I made it here I can
+                                                <h3 class="name">Jurgis</h3>
+                                                <p class="profession">Scrum Master</p>
+                                                <p class="text-center">"I'm the new Sinatra, and since I made it here I
+                                                    can
                                                     make it anywhere, yeah, they love me everywhere"</p>
                                             </div>
                                         </div>
@@ -501,18 +505,14 @@
                                         <div class="content">
                                             <div class="main">
                                                 <h4 class="text-center">Job Description</h4>
-                                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and
-                                                    many others...</p>
+                                                <p class="text-center">I did Tricks and Tips section and write content of the footer also.</p>
                                             </div>
                                         </div>
                                         <div class="footer">
                                             <div class="social-links text-center">
-                                                <a href="#" class="facebook"><i
-                                                        class="fa fa-facebook fa-fw"></i></a>
-                                                <a href="#" class="google"><i
-                                                        class="fa fa-google-plus fa-fw"></i></a>
-                                                <a href="#" class="twitter"><i
-                                                        class="fa fa-twitter fa-fw"></i></a>
+                                                <a href="#" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                                <a href="https://github.com/J-Grigri" class="github"><i class="fab fa-github fa-fw"></i></a>
+                                                <a href="#" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                             </div>
                                         </div>
                                     </div> <!-- end back panel -->
@@ -530,16 +530,17 @@
                                             <img src="img/rotating_card_thumb2.png" />
                                         </div>
                                         <div class="user">
-                                            <img class="img-circle" src="img//rotating_card_profile3.png" />
+                                            <img class="img-circle" src="img/sang-avatar.png" />
                                         </div>
                                         <div class="content">
                                             <div class="main">
                                                 <h3 class="name">John Marvel</h3>
                                                 <p class="profession">CEO</p>
-                                                <p class="text-center">"I'm the new Sinatra, and since I made it here I can
+                                                <p class="text-center">"I'm the new Sinatra, and since I made it here I
+                                                    can
                                                     make it anywhere, yeah, they love me everywhere"</p>
                                             </div>
-    
+
                                         </div>
                                     </div> <!-- end front panel -->
                                     <div class="back">
@@ -549,18 +550,16 @@
                                         <div class="content">
                                             <div class="main">
                                                 <h4 class="text-center">Job Description</h4>
-                                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and
+                                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel
+                                                    and
                                                     many others...</p>
                                             </div>
                                         </div>
                                         <div class="footer">
                                             <div class="social-links text-center">
-                                                <a href="#" class="facebook"><i
-                                                        class="fa fa-facebook fa-fw"></i></a>
-                                                <a href="#" class="google"><i
-                                                        class="fa fa-google-plus fa-fw"></i></a>
-                                                <a href="#" class="twitter"><i
-                                                        class="fa fa-twitter fa-fw"></i></a>
+                                                <a href="#" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                                <a href="#" class="google"><i class="fab fa-github fa-fw"></i></a>
+                                                <a href="#" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                             </div>
                                         </div>
                                     </div> <!-- end back panel -->
@@ -577,37 +576,32 @@
                                             <img src="img/rotating_card_thumb3.png" />
                                         </div>
                                         <div class="user">
-                                            <img class="img-circle" src="img/rotating_card_profile.png" />
+                                            <img class="img-circle" src="img/sang-avatar.png" />
                                         </div>
                                         <div class="content">
                                             <div class="main">
-                                                <h3 class="name">Inna Corman</h3>
-                                                <p class="profession">Product Manager</p>
-                                                <p class="text-center">"I'm the new Sinatra, and since I made it here I can
-                                                    make it anywhere, yeah, they love me everywhere"</p>
+                                                <h3 class="name">Sang Nguyen</h3>
+                                                <p class="profession">Website Developer</p>
+                                                <p class="text-center">"Hi guys, I am Sang Nguyen, a newbie and also a student of Coder School.  My ultimate goal in the course is becoming a super website developer and help each others debug their bugs."</p>
                                             </div>
                                         </div>
                                     </div> <!-- end front panel -->
                                     <div class="back">
                                         <div class="header">
-                                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                                            <h5 class="motto">"Knowledge is freedom!"</h5>
                                         </div>
                                         <div class="content">
                                             <div class="main">
                                                 <h4 class="text-center">Job Description</h4>
-                                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and
-                                                    many others...</p>
-    
+                                                <p class="text-center">My role is complete the navigation bar and banner of the website. I wanna say thank to my team especially our product owner and designer also.</p>
+
                                             </div>
                                         </div>
                                         <div class="footer">
                                             <div class="social-links text-center">
-                                                <a href="#" class="facebook"><i
-                                                        class="fa fa-facebook fa-fw"></i></a>
-                                                <a href="#" class="google"><i
-                                                        class="fa fa-google-plus fa-fw"></i></a>
-                                                <a href="#" class="twitter"><i
-                                                        class="fa fa-twitter fa-fw"></i></a>
+                                                <a href="https://www.facebook.com/josscancer" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                                <a href="https://github.com/dechariot" class="github"><i class="fab fa-github fa-fw"></i></a>
+                                                <a href="https://twitter.com/Jossensitive" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                             </div>
                                         </div>
                                     </div> <!-- end back panel -->
@@ -615,11 +609,11 @@
                             </div> <!-- end card-container -->
                         </div> <!-- end col-sm-3 -->
                     </div> <!-- end col-sm-10 -->
-                    
+
                 </div>
 
             </div>
-            
+
         </div>
 
         <img class="img-fluid background-about" src="/img/img-aboutus.png">
@@ -632,19 +626,23 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; text-align: center;">
-        <div class="container-fluid end">
+        <div class="container-fluid end" style="padding: 0 300px;">
             <img src="/img/logo-team.png" class="logo-2">
-            <p>Lorem ipsum dolor sit amet, consectetur </p>
+            <p>Team Cool Name was established by a random group generator on week 1 of the CoderSchool Full Stack Web
+                Development Bootcamp. During 4 days of development Team Cool Name encountered countless obstacles which
+                led each developer wandering the web in a quest to find answers. Combining our hard work, files with
+                duplicate values and desire to learn we have made and now proudly present the Super Mario Kart tribute
+                webpage. </p>
             <div class="socialmedia">
                 <div class="social-links text-center">
                     <a href="#" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                    <a href="#" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                    <a href="#" class="github"><i class="fab fa-github fa-fw"></i></a>
                     <a href="#" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
                 </div>
             </div>
             <div class="copyright">
                 <div class="line-4"></div>
-                <p>Copyright © 2020 Cool Studio. All rights reserved.</p>
+                <p>Copyright © 2020 Team Cool Name Studio. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -656,11 +654,7 @@
 
 
 
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
@@ -668,6 +662,85 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script src="/js/typewrite.js" type=""></script>
+    <!-- <script>
+    // $(".nav-items").click(function() {
+
+    //     var id = $(this).data('id');
+        
+    //     $('html, body').animate({
+    //         scrollTop: $("#"+id).offset().top
+    //     }, 2000);
+    // });
+    </script> -->
+    <script>
+
+        var navH;
+        var feature = "home";
+
+        $(document).ready(function () {
+
+            navH = $("#nav").outerHeight();
+
+            //navigation handlers
+            $("#name").click(function () {
+                $("html, body").animate({ scrollTop: $("#home").position().top }, 1000);
+            });
+
+            $("#nav-context").click(function () {
+                $("html, body").animate({ scrollTop: $("#context").position().top }, 1000);
+            });
+
+            $("#nav-concept").click(function () {
+                $("html, body").animate({ scrollTop: $("#concept").position().top }, 1000);
+            });
+
+            $("#nav-feature").click(function () {
+                $("html, body").animate({ scrollTop: $("#feature").position().top }, 1000);
+            });
+
+            $("#nav-video").click(function () {
+                $("html, body").animate({ scrollTop: $("#video").position().top }, 1000);
+            });
+
+            $("#nav-about").click(function () {
+                $("html, body").animate({ scrollTop: $("#about").position().top }, 1000);
+            });
+
+            /home nav/
+
+
+            $(".home_icon_1").click(function () {
+                $("html, body").animate({ scrollTop: $("#context").position().top }, 1000);
+            });
+
+            $(".home_icon_2").click(function () {
+                $("html, body").animate({ scrollTop: $("#concept").position().top }, 1000);
+            });
+
+            $(".home_icon_3").click(function () {
+                $("html, body").animate({ scrollTop: $("#feature").position().top }, 1000);
+            });
+
+            $(".home_icon_4").click(function () {
+                $("html, body").animate({ scrollTop: $("#video").position().top }, 1000);
+            });
+
+            $(".home_icon_5").click(function () {
+                $("html, body").animate({ scrollTop: $("#about").position().top }, 1000);
+            });
+
+
+        });
+
+        function setBtnOn() {
+            $(".btn").show();
+            $("#resetBtn").hide();
+        }
+
+
+
+    </script>
+
 </body>
 
 </html>
