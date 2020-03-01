@@ -7,7 +7,7 @@
     <title>Mario-Kart</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="shortcut icon" href="/img/tab-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/logo-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="css/rotating-card.css" rel="stylesheet" />
@@ -32,17 +32,22 @@
                 <li class="nav-item active">
                     <a class="nav-link text-white nav-items"
                         style=" font-size:21px; text-transform: uppercase; margin: 0 40px; font-family: Gotham-bold;"
-                        href="#">Intro <span class="sr-only">(current)</span></a>
+                        href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white nav-items"
                         style="font-size:21px;text-transform: uppercase; margin: 0 20px; font-family: Gotham-bold;"
-                        href="#">Features</a>
+                        href="#titleContainer">Tips & Tricks</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white nav-items"
                         style=" font-size:21px;text-transform: uppercase; margin: 0 20px; font-family: Gotham-bold;"
-                        href="#">About Us</a>
+                        href="#characterSection">Character</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white nav-items"
+                        style=" font-size:21px;text-transform: uppercase; margin: 0 20px; font-family: Gotham-bold;"
+                        href="#aboutUs">About Us</a>
                 </li>
             </ul>
         </div>
@@ -58,8 +63,8 @@
                     <div class="video-frame"
                         style="width:30%; min-width: 450px; min-height: 300px; height:30%; display: flex; align-items: center; justify-content: center;">
                         <iframe width="95%" height="93%"
-                            src="https://www.youtube.com/embed/87lnoRaoP6I?playsinline=1&enablejsapi=1&origin=https%3A%2F%2Fmariokarttour.com&widgetid=1&loop=1&autoplay=1&mute=1"
-                            frameborder="0" loop=true
+                            src="https://www.youtube.com/embed/87lnoRaoP6I?playsinline=1&enablejsapi=1&origin=https%3A%2F%2Fmariokarttour.com&widgetid=1&autoplay=1&mute=1&version=3&loop=1&playlist=87lnoRaoP6I"
+                            frameborder="0" loop=1
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
@@ -217,7 +222,7 @@
     align-content: center;
     flex-direction: column;
     justify-content: center;">
-        <div class="container-fluid">
+        <div id="characterSection"class="container-fluid">
             <div class="title-testemonials">
                 <h4>MEET OUR DRIVERS</h4>
                 <div class="line-1"></div>
@@ -409,7 +414,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;">
-        <div class="container-fluid">
+        <div id="aboutUs" class="container-fluid">
             <div class="title-about">
                 <h4>THIS IS OUR AWESOME TEAM</h4>
                 <div class="line-1"></div>
