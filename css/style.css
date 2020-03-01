@@ -517,7 +517,27 @@ footer > .end > p {
   padding: 2% 0% 2% 0;
 }
 
+footer>.end >.socialmedia >.social-links > a.facebook{
+  color: white;
+}
+footer>.end >.socialmedia >.social-links > a.github{
+  color: white;
+}
+footer>.end >.socialmedia >.social-links > a.twitter{
+  color: white;
+}
 
+footer>.end >.socialmedia >.social-links > a.facebook:hover {
+  color:#0056b3;
+}
+
+footer>.end >.socialmedia >.social-links > a.github:hover {
+  color:#0056b3;
+}
+
+footer>.end >.socialmedia >.social-links > a.twitter:hover {
+  color:#0056b3;
+}
 
 
 
