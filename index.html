@@ -439,15 +439,14 @@
                                             <img src="img/rotating_card_thumb2.png" />
                                         </div>
                                         <div class="user">
-                                            <img class="img-circle" src="img/sang-avatar.png" />
+                                            <img class="img-circle" src="img/wind-avater.png" />
                                         </div>
                                         <div class="content">
                                             <div class="main">
-                                                <h3 class="name">John Marvel</h3>
-                                                <p class="profession">CEO</p>
-                                                <p class="text-center">"I'm the new Sinatra, and since I made it here I
-                                                    can
-                                                    make it anywhere, yeah, they love me everywhere"</p>
+                                                <h3 class="name">Wind</h3>
+                                                <p class="profession">Product Owner</p>
+                                                <p class="text-center">Interested in the entire frontend spectrum and 
+                                                    working on ambitious projects with positive people.</p>
                                             </div>
 
                                         </div>
@@ -459,16 +458,14 @@
                                         <div class="content">
                                             <div class="main">
                                                 <h4 class="text-center">Job Description</h4>
-                                                <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel
-                                                    and
-                                                    many others...</p>
+                                                <p class="text-center">Design website, develop section about and footer.</p>
 
                                             </div>
                                         </div>
                                         <div class="footer">
                                             <div class="social-links text-center">
                                                 <a href="#" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                                                <a href="#" class="github"><i class="fab fa-github fa-fw"></i></a>
+                                                <a href="https://github.com/Phongwind" class="github"><i class="fab fa-github fa-fw"></i></a>
                                                 <a href="#" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
                                             </div>
                                         </div>
@@ -582,7 +579,7 @@
                                             <div class="main">
                                                 <h3 class="name">Sang Nguyen</h3>
                                                 <p class="profession">Website Developer</p>
-                                                <p class="text-center">"Hi guys, I am Sang Nguyen, a newbie and also a student of Coder School.  My ultimate goal in the course is becoming a super website developer and help each others debug their bugs."</p>
+                                                <p class="text-center">"Sang Nguyen, a newbie and also a student of Coder School.  My ultimate goal is become a super developer and helping each others debug their bugs."</p>
                                             </div>
                                         </div>
                                     </div> <!-- end front panel -->
@@ -626,18 +623,18 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; text-align: center;">
-        <div class="container-fluid end" style="padding: 0 300px;">
+        <div class="container-fluid end">
             <img src="/img/logo-team.png" class="logo-2">
-            <p>Team Cool Name was established by a random group generator on week 1 of the CoderSchool Full Stack Web
+            <p style="padding: 0 480px; font-size: 1rem;">Team Cool Name was established by a random group generator on week 1 of the CoderSchool Full Stack Web
                 Development Bootcamp. During 4 days of development Team Cool Name encountered countless obstacles which
                 led each developer wandering the web in a quest to find answers. Combining our hard work, files with
                 duplicate values and desire to learn we have made and now proudly present the Super Mario Kart tribute
                 webpage. </p>
             <div class="socialmedia">
                 <div class="social-links text-center">
-                    <a href="#" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                    <a href="#" class="github"><i class="fab fa-github fa-fw"></i></a>
-                    <a href="#" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook fa-fw" style="color: white;"></i></a>
+                    <a href="#" class="github"><i class="fab fa-github fa-fw" style="color: white;"></i></a>
+                    <a href="#" class="twitter"><i class="fa fa-twitter fa-fw" style="color: white;"></i></a>
                 </div>
             </div>
             <div class="copyright">
@@ -653,7 +650,7 @@
 
 
 
-
+    <!--script-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -662,84 +659,16 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script src="/js/typewrite.js" type=""></script>
-    <!-- <script>
-    // $(".nav-items").click(function() {
-
-    //     var id = $(this).data('id');
-        
-    //     $('html, body').animate({
-    //         scrollTop: $("#"+id).offset().top
-    //     }, 2000);
-    // });
-    </script> -->
+    <!--smooth srcipt when click to inpage div link-->
     <script>
+        $('a[href*="#"]').on('click', function (e) {
+        e.preventDefault();
 
-        var navH;
-        var feature = "home";
-
-        $(document).ready(function () {
-
-            navH = $("#nav").outerHeight();
-
-            //navigation handlers
-            $("#name").click(function () {
-                $("html, body").animate({ scrollTop: $("#home").position().top }, 1000);
-            });
-
-            $("#nav-context").click(function () {
-                $("html, body").animate({ scrollTop: $("#context").position().top }, 1000);
-            });
-
-            $("#nav-concept").click(function () {
-                $("html, body").animate({ scrollTop: $("#concept").position().top }, 1000);
-            });
-
-            $("#nav-feature").click(function () {
-                $("html, body").animate({ scrollTop: $("#feature").position().top }, 1000);
-            });
-
-            $("#nav-video").click(function () {
-                $("html, body").animate({ scrollTop: $("#video").position().top }, 1000);
-            });
-
-            $("#nav-about").click(function () {
-                $("html, body").animate({ scrollTop: $("#about").position().top }, 1000);
-            });
-
-            /home nav/
-
-
-            $(".home_icon_1").click(function () {
-                $("html, body").animate({ scrollTop: $("#context").position().top }, 1000);
-            });
-
-            $(".home_icon_2").click(function () {
-                $("html, body").animate({ scrollTop: $("#concept").position().top }, 1000);
-            });
-
-            $(".home_icon_3").click(function () {
-                $("html, body").animate({ scrollTop: $("#feature").position().top }, 1000);
-            });
-
-            $(".home_icon_4").click(function () {
-                $("html, body").animate({ scrollTop: $("#video").position().top }, 1000);
-            });
-
-            $(".home_icon_5").click(function () {
-                $("html, body").animate({ scrollTop: $("#about").position().top }, 1000);
-            });
-
-
-        });
-
-        function setBtnOn() {
-            $(".btn").show();
-            $("#resetBtn").hide();
-        }
-
-
-
-    </script>
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 500, 'linear');
+    });
+    </script> <!--end of smooth script-->
 
 </body>
 
