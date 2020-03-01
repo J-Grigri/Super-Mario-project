@@ -16,6 +16,10 @@
   .jasmine {
       color: var(--jasmine);
   }
+
+  .test {
+      display:flex;
+  }
   
   .darkred {
       color: var(--darkred);
@@ -47,6 +51,7 @@
 }
 
 /* style navigation-jumbotron */
+
 
 .logo:hover {
     transform: scale(1.2);
@@ -120,13 +125,13 @@
   /* Daniel */
   
   .hero-image {
-      background-image: url("rainbow.jpg");
-      height: 500px;
+      background-image: url("Anything.png");
+      height: 100%;
       background-size: cover;
       position: relative;
       margin-bottom: 1%;
       margin-top: 1%;
-      opacity: 25%;
+      opacity: 100%;
   }
   
   .hero-text {
@@ -137,8 +142,9 @@
       margin: 0 auto;
       /* transform: translate(-50%, -50%); */
       color: white;
+      font-family: 20px Gotham-bold;
   }
-  
+
   .java-text {
       height: 500px;
       width: fit-content;
@@ -197,3 +203,5 @@
   .tip-secion-title {
       text-align: center;
   }
+
+ 

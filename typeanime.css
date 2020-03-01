@@ -47,7 +47,7 @@
 }
 
 .mylink a{
-  font-family: Calibri;
+  font-family: Gotham-bold;
   color: #fff;
   border-bottom: 1px solid #fff;
   opacity: .5;
@@ -56,4 +56,24 @@
 }
 .mylink a:hover{
   opacity: 1
+}
+
+@font-face {
+    font-family: Gotham-regular;
+    src: url(/font/GothaProReg.otf);
+}
+  
+@font-face {
+    font-family: Gotham-medium;
+    src: url(/font/GothaProMed.otf);
+}
+  
+@font-face {
+    font-family: Gotham-light;
+    src: url(/font/GothaProLig.otf);
+}
+  
+@font-face {
+    font-family: Gotham-bold;
+    src: url(/font/GothaProBol.otf);
 }
