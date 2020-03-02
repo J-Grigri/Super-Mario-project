@@ -190,7 +190,6 @@
 
 #featuresContainer {
   display: block;
-  text-align: left;
   background-image: url(img/background-features.png);
 }
 
@@ -255,11 +254,7 @@
   min-height: 215px;
 }
 
-.cardName {
-  padding: 10px;
-  background-color: white;
-  color: white;
-}
+
 
 .cardName > h5 > a {
   color: #3f88c5;
@@ -332,7 +327,6 @@
   
   .boost-card {
     margin-bottom: 10px;
-    height: 500px;
     text-align: center;
     align-items: center;
     border: 3px solid #3f88c5;
